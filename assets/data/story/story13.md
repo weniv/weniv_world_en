@@ -1,6 +1,6 @@
-# Code Decryption!
+# Code Decryption
 
-## Code Decryption! `String` `Unicode ` `Method Chaining` 
+## Code Decryption `String` `Unicode ` `Method Chaining` 
 
 The seven algorithm gemstones capable of deciphering all the principles and mysteries in the world endow extraordinary wisdom and mystical power. Pie and Sun, the king of algorithms, have been managing these for a long time. How they acquired these gems remains unknown.
 
