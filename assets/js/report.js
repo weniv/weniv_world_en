@@ -91,8 +91,7 @@ btnDownload.addEventListener('click', (e) => {
 
             // TODO: 학번과 이름을 입력받아 파일명을 만들어준다.
             const userName =
-                JSON.parse(localStorage.getItem('profile'))?.name ||
-                'anonymous';
+                JSON.parse(localStorage.getItem('profile'))?.name || '[Name]';
             if (!!reportData) {
                 const fileName = `Report`;
                 const today = new Date();
