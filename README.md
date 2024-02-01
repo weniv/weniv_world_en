@@ -1,6 +1,6 @@
-# weniv_world
+# weniv_world (글로벌 버전)
 
-* 실행 URL : https://weniv.github.io/weniv_world/
+* 실행 URL : https://world-en.weniv.co.kr/
 * 위니브 월드 레파지토리가 2개 있습니다. 스터디인 프로젝트가 이전 이름이 위니브 월드입니다. 이 프로젝트는 Python과 JavaScript를 실행하게 하는 교육용 서비스 제작 repo입니다.(우선
   Python으로만 진행됩니다.)
 * 2023년 9월 30일 2D 베타버전 W1 출시
