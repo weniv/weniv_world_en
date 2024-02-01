@@ -1,56 +1,57 @@
-# 동료를 모아!
+# Gather Your Colleagues!
 
-## 동료를 모아! `형변환` `람다 함수` `내장 함수`
+## Gather Your Colleagues! `Type Casting` `Lambda Function` `Built-in Function`
 
-라이캣은 여정 중 다양한 동료를 만납니다. 파이썬이 궁금한 자바를 좋아하는 자바독, 배에서 만나 함께 알고리즘을 풀었던 개리, 파이와 썬의 심복인 마지막 관문을 지키는 소울곰.
+During his journey, Licat met many colleagues: Javadog, who loves Java and is curious about Python, Gary whom he met on a ship and solved algorithms together, and SoulGom, the last gatekeeper and a henchman of Pie and Sun.
 
-동료가 늘어갈 때마다 라이캣은 동료의 정보를 보다 쉽게 보고 싶었습니다. 이제는 기억만으로 관리하기에는 너무 많은 동료가 생겼기 때문이에요. 이 정보는 현재 리스트 안에 튜플 형태로 저장되어 있습니다.
+As the number of colleagues grew, Licat wanted to see their information easily. There were too many people to rely just on his memory. Currently, this information is stored in a list in tuple format.
 
-이제 이 동료 데이터를 딕셔너리 형태로 관리하고자 합니다. 기본 데이터로 리스트 안에 튜플 데이터로 데이터가 주어졌을 때 이 데이터를 리스트 안에 딕셔너리로 변경하고 이 데이터에서 원하는 데이터를 추출하는 것이 여러분의 임무입니다. 즉, 리스트 안의 튜플을 딕셔너리 형태로 변환한 뒤, 해당 딕셔너리에서 이름만 추출하여 출력해야 합니다.
+Licat wants to manage this data in dictionary. Your mission is to convert the given data from tuples within a list into dictionaries within a list and extract the desired data. In other words, convert the tuples within the list into dictionary format and then output only the names extracted from those dictionaries.
 
-### 임무
+### Mission
 
-아래 데이터를 사용하여 요구된 결과를 얻어내야 합니다. 직접 출력하는 대신, 딕셔너리를 만들어 출력하는 방식을 사용해 주세요.
+Your mission is to obtain the required results using the provided data. Instead of direct printing, create and use a dictionary to output the result.
 
-### 기본 데이터
+### Basic Data
 
 ```python
-# 튜플로 구성된 동료 정보
+# Tuple-based colleague information
 crew_info = [
-    ('자바독', 95, 'Python이 궁금한 평생 JAVA만 해온 JAVA독. Python을 무기로 가지고 있는 라이캣이 동료가 되라는 말에 호기심을 느껴 작은 시험을 냈고 라이캣이 지혜를 발휘하여 문제를 풀자 라이캣의 동료가 됨. Python으로 여러가지를 해보고자 함.'),
-    ('개리', 85, '알고리즘 보물을 찾으러가는 배에서 만난 개리. 남는 자리에 누가 앉을 것인지에 대해 논의하던 중 페이지 교체 알고리즘으로 약자를 배려하는 아이디어를 낸 라이캣에 감복하여 동료가 되었음.'),
-    ('소울곰', 1, '파이와 썬의 심복인 소울곰. NPC로 무한 동력으로 움직이는 특징을 가지고 있다. 성산일출봉에서 파이와 썬의 마지막 관문을 지키는 지킴이. 카페 주인으로 위장하고 있으나 단번에 NPC인 것을 알아봄.')
+    ("Javadog", 95, "a lifelong Java enthusiast curious about Python. When Python expert Licat suggested him to be a colleague, Javadog felt curious and gave him a small test. Impressed by Licat's wisdom in solving the problem, he became Licat's colleague. He wants to try various things with Python."),
+    ("Gary", 85, "met on a ship heading to algorithmic treasures. During a discussion about who would take the remaining seat, Licat suggested the idea of considering the weak using a page replacement algorithm. Gary was impressed and became Licat's colleague."),
+    ("SoulGom", 1, "a henchman of Pie and Sun. Moves with infinite power as an NPC and acts as the gatekeeper of the last gate of Pie and Sun. Disguised as a cafe owner, but easily recognized.")
 ]
 ```
 
-### 변환 데이터
+### Transformed Data
 
-변환된 데이터 형태입니다. 튜플 데이터를 이용하여 아래와 같이 만들고 최종적으로 `자바독`, `개리`, `소울곰`을 출력하세요.
+The transformed data format is as follows. Use the tuple data to create it as shown below and output `Javadog`, `Gary`, `SoulGom` as a final result.
+
 ```python
 crew_info = [{
-    '이름': '자바독'
-    '코딩 능력치': 95
-    '메모': 'Python이 궁금한 평생 JAVA만 해온 JAVA독. Python을 무기로 가지고 있는 라이캣이 동료가 되라는 말에 호기심을 느껴 작은 시험을 냈고 라이캣이 지혜를 발휘하여 문제를 풀자 라이캣의 동료가 됨. Python으로 여러가지를 해보고자 함.'
+    "Name": "Javadog"
+    "Coding Ability": 95
+    "Note": "a lifelong Java enthusiast curious about Python. When Python expert Licat suggested him to be a colleague, Javadog felt curious and gave him a small test. Impressed by Licat's wisdom in solving the problem, he became Licat's colleague. He wants to try various things with Python."
 },
 {
-    '이름': '개리'
-    '코딩 능력치': 85
-    '메모': '알고리즘 보물을 찾으러가는 배에서 만난 개리. 남는 자리에 누가 앉을 것인지에 대해 논의하던 중 페이지 교체 알고리즘으로 약자를 배려하는 아이디어를 낸 라이캣에 감복하여 동료가 되었음.'
+    "Name": "Gary"
+    "Coding Ability": 85
+    "Note": "met on a ship heading to algorithmic treasures. During a discussion about who would take the remaining seat, Licat suggested the idea of considering the weak using a page replacement algorithm. Gary was impressed and became Licat's colleague."
 }
 {
-    '이름': '소울곰'
-    '코딩 능력치': 1
-    '메모': '파이와 썬의 심복인 소울곰. NPC로 무한 동력으로 움직이는 특징을 가지고 있다. 성산일출봉에서 파이와 썬의 마지막 관문을 지키는 지킴이. 카페 주인으로 위장하고 있으나 단번에 NPC인 것을 알아봄.'
+    "Name": "SoulGom"
+    "Coding Ability": 1
+    "Note": "a henchman of Pie and Sun. Moves with infinite power as an NPC and acts as the gatekeeper of the last gate of Pie and Sun. Disguised as a cafe owner, but easily recognized"
 }]
 ```
 
-### 출력 코드
+### Output
 ```python
-print(['자바독', '개리', '소울곰'])
+print(['Javadog', 'Gary', 'SoulGom'])
 ```
 
-## 사용 코드
-아래 제시된 코드를 활용하여 문제를 해결해 주세요.
+## Hints
+Complete the mission by combining the codes below.
 ```python
 dict()
 map()

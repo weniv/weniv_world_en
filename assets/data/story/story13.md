@@ -1,12 +1,12 @@
-# 암호해독
+# Code Decryption!
 
-## 암호해독! `문자열` `유니코드` `메서드 채이닝`
+## Code Decryption! `String` `Unicode ` `Method Chaining` 
 
-세상의 모든 원리와 난제를 해독할 수 있는 알고리즘의 7개 원석은 비상한 지혜와 신비한 힘을 부여합니다. 이 7개의 원석은 오랜 시간 동안 파이와 썬이 관리해 왔습니다. 파이와 썬이 어떻게 이 원석들을 얻었는지는 알려진 바가 없습니다.
+The seven algorithm gemstones capable of deciphering all the principles and mysteries in the world endow extraordinary wisdom and mystical power. Pie and Sun, the king of algorithms, have been managing these for a long time. How they acquired these gems remains unknown.
 
-그 힘이 워낙 강력해 위니브 월드의 라이언조차 넘볼 수 없었다고 전해집니다. 하지만 파이와 썬은 세상의 규칙을 힘으로 깨는 것을 극도로 경계했습니다. 그래서 그들은 세상에 자신들의 모습을 드러내지 않았습니다. 그들이 드물게 모습을 드러낼 때는 천지가 진동할 정도의 힘을 동반했고, 그 모습은 구전으로 세상에 전해졌습니다.
+The power of the gems was so potent that even the Lion of Weniv World couldn't covet it. However, Pie and Sun were extremely cautious about breaking the world's rules with power. Therefore, they did not reveal themselves to the world.
 
-하지만 모든 동물의 수명이 영원할 수는 없는 법. 알고리즘의 제왕인 파이와 썬은 죽기 전, 이 보물에 '암호'를 걸어 세계 어딘가에 숨겨놓았다고 공표했습니다. 그들이 남긴 문자는 아래와 같습니다.
+But the lifespan of all creatures cannot be eternal. Before Pie and Sun died, they announced that they had set a 'cipher' on this treasure and hidden it somewhere in the world. The characters they left are as follows:
 
 ```text
 '   + -- + - + -   '
@@ -14,16 +14,16 @@
 '   + -- + - + -   '
 '   + - + - + - +   '
 
-해(1)와 달(0),
-Code의 세상 안으로!(En-Coding)
+Sun(1) and Moon(0),
+Into the World of Code! (En-Coding)
 ```
 
 
-## 임무
+## Mission
 
-라이캣은 주어진 각 문자열의 공백을 제거하고 +는 1로 -는 0으로 바꾸어 유니코드로 변환하여 암호를 해독하려 합니다. 라이캣을 도와 암호를 해독하여 그 단어를 말하세요.
+Licat wants to decrypt the code by removing the spaces from each given string, replacing + with 1 and - with 0, and converting it into Unicode. Help Licat decrypt the code and print the word.
 
-### 기본 코드
+### Basic Data
 
 ```python
 s = [
@@ -34,8 +34,8 @@ s = [
 ]
 ```
 
-## 사용 코드
-아래 코드들을 조합하여 문제를 풀어주세요.
+## Hints
+Complete the mission by combining the codes below.
 ```python
 s.replace()
 chr()

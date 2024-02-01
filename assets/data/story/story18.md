@@ -1,49 +1,49 @@
-# 상한 당근을 골라내자!
+# Let's pick out the rotten carrots!
 
-## 상한 당근을 골라내자! `컴프리헨션` `삼항 연산자`
+## Let's pick out the rotten carrots! `Comprehension` `Ternary Operator`
 
-빙키는 파이와 썬의 심복이었으며, 소울곰과 함께 보물을 지키고 있었습니다. 라이캣이 여러 도전을 극복해 나갈 때, 빙키는 알게 모르게 조언을 건넸어요. 라이캣이 보석을 차지하자, 빙키는 이것이 파이와 썬이 남긴 마지막 임무임을 깨달았습니다.
+Binky, who was the trusted companion of Pie and Sun, was guarding the treasure with SoulGom. When Licat was overcoming various challenges, Binky gave him some advice. When Licat got the jewel, Binky realized it was the last mission left by Pie and Sun.
 
-'도끼에 발을 찍혀 다시는 도끼를 사용하지 않겠다는 자, 도끼에 발을 찍혀도 신뢰하고 포용하며 도끼의 능력을 인정하고 곁에 둘 수 있는 자.'
+‘A person who will never use an ax again after being stamped with an ax, or a person who can trust and embrace it even if he is stamped with an ax.’
 
-이것은 왕관의 무게와도 같은 것이었습니다. 빙키는 라이캣이 여러 난관을 극복한 이들에게 나누어줄 믿음과 신뢰, 포용력을 지켜보았습니다. 만약 라이캣이 보물을 혼자 차지하려 한다면, 빙키는 그 보물을 회수할 생각이었습니다. 마음을 정리하고 있을 때, 빙키는 라이캣의 부름을 받았습니다. 
+This was something as heavy as the weight of a crown. Binky witnessed the faith, trust, and tolerance that Licat shared with those who overcame many obstacles. If Licat tried to claim the treasure alone, Binky was prepared to retrieve it. While contemplating, Binky received Licat’s call.
 
-> '빙키, 받아라냥! 빙키가 아니었다면 여기까지 오지 못했을 거야냥!'
+> “Binky, take it! I wouldn't have come this far without Binky!”
 
-스톤을 받을 것이라고는 생각지 못했던 빙키는 당황했습니다. 그리고 운명이 이끄는 이 상황이 재미있다고 느꼈습니다. 파이와 썬은 빙키에게 합당한 자가 나올 때까지 보물을 지켜달라 부탁했고, 이제 합당한 자로부터 보물을 다시 받았습니다. 이제 빙키가 합당한 자임을 증명할 때입니다.
+Binky, who never expected to receive it, was taken aback. And she found this situation amusing which is guided by destiny. Pie and Sun had entrusted Binky to guard the treasure until the right person emerged. And now Binky received the treasure from the right one. Now is the time for Binky to prove herself.
 
-![리얼리티 스톤을 가진 빙키](./story18-1.jpg)
+![Binky with Reality Stone](./story18-1.jpg)
 
-* 리얼리티 스톤 : 사람들의 시각을 조작하여 현실과 같은 허상을 만들어낼 수 있음.
+* Reality Stone: Can manipulate people's vision to create illusions resembling reality.
 
-빙키는 오랜 시간 떠나있던 고향으로 발걸음을 옮겼습니다. 돌아가는 동안 리얼리티 스톤을 사용할 역량을 키우기 위해 노력했습니다. 또, 이것으로 어떤 힘을 모을지도 고민했습니다.
+Binky moved to her hometown, where she had been away for a long time. She worked hard to enhance her ability to use the Reality Stone and pondered on what kind of power she could gather with it.
 
-고향에 도착한 빙키는 많이 변한 마을을 발견했습니다. 산업화로 인해 옛 동산들은 사라지고, 높은 건물들만 남아 있었습니다.
+Upon arriving, Binky found a village that had changed a lot. The old hills were gone, and only tall buildings remained due to industrialization.
 
-길가에는 굶주린 토끼들이 쓰러져 있었고, 밭에는 상한 당근들이 널려있었습니다. 높은 건물에는 잘 차려입은 사자와 하이에나들이 들어가고 있었으며, 토끼들은 공사 현장에서 일하고 있었습니다.
+Starving rabbits lay by the roadside, and rotten carrots were scattered in the fields. Well-dressed lions and hyenas were entering the tall buildings, while rabbits were working at the construction site.
 
-![리얼리티 스톤을 가진 빙키](./story18-2.jpg)
+![Binky with Reality Stone](./story18-2.jpg)
 
-"내가 기억하는 마을을 보여주겠어요. 아니, 더 맑은 물이 흐르고, 쉴 수 있는 동산이 있고, 언제든 먹을 수 있는 싱싱한 당근이 있던 마을을 재현하겠어요. 공기는 맑고, 사람들은 나와서 뛰어놀죠. 그러면, 사람들은 자신이 잃어버렸던 것이 얼마나 귀한지 알 것입니다. 되돌아보고, 결심하여 삽이 아니라 철퇴를 들도록 하겠습니다."
+"I'll recreate the village where there was clearer water, a garden to rest, and a fresh carrot to eat at any time. The air is clear, and people come out and run around. Then, people will know how precious it is to lose them."
 
-### 임무
-주어진 리스트에서 신선도가 떨어진 당근과 당근이 아닌 것들을 제외하고, 당근만을 선별하여 터미널에 출력하세요. 리스트는 각 항목별로 ['항목 이름', 신선도 점수]의 형태로 구성되어 있습니다. 신선도 점수가 5 이상인 '당근'만을 선택해야 합니다. 이 임무는 리스트 컴프리헨션과 삼항 연산자를 사용하여 해결할 수 있습니다.
+### Mission
+Exclude carrots with low freshness and items other than carrots from the given list, and select only carrots with a freshness score of 5 or higher. Lastly, output them to the terminal. The list is structured with `['item name', freshness score]` for each item. Use `list comprehension` and the `ternary operator` to complete this mission.
 
-### 기본 데이터
+### Basic Data
 ```python
-items = [['당근', 3], ['사과', 5], ['당근', 6], ['포도', 4], ['당근', 7]]
+items = [['carrot', 3], ['apple', 5], ['carrot', 6], ['Grape', 4], ['carrot', 7]]
 ```
 
-### 결과값
+### Output
 ```python
-['당근', 6], ['당근', 7]
+['carrot', 6], ['carrot', 7]
 ```
 
-## 사용 코드
-아래 제시된 코드를 활용하여 문제를 해결해 주세요.
+## Hints
+Complete the mission by combining the codes below.
 
 ```python
 result = [item for item in items]
 result = 'hello' if True else 'world'
-if item[0] == '당근' and item[1] >= 5
+if item[0] == 'carrot' and item[1] >= 5
 ```
