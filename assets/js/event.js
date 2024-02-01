@@ -46,12 +46,12 @@ window.addEventListener('load', () => {
         localStorage.setItem('color-theme', 'dark');
         document.documentElement.setAttribute('color-theme', 'dark');
         darkModeButton.classList.add('active');
-        darkModeButton.setAttribute('name', '다크모드 OFF');
+        darkModeButton.setAttribute('name', 'Disable dark mode');
     } else {
         localStorage.setItem('color-theme', 'light');
         document.documentElement.setAttribute('color-theme', 'light');
         darkModeButton.classList.remove('active');
-        darkModeButton.setAttribute('name', '다크모드 ON');
+        darkModeButton.setAttribute('name', 'Enable dark mode');
     }
 });
 
@@ -60,12 +60,12 @@ darkModeButton.addEventListener('click', () => {
         localStorage.setItem('color-theme', 'light');
         document.documentElement.setAttribute('color-theme', 'light');
         darkModeButton.classList.remove('active');
-        darkModeButton.setAttribute('name', '다크모드 ON');
+        darkModeButton.setAttribute('name', 'Enable dark mode');
     } else {
         localStorage.setItem('color-theme', 'dark');
         document.documentElement.setAttribute('color-theme', 'dark');
         darkModeButton.classList.add('active');
-        darkModeButton.setAttribute('name', '다크모드 OFF');
+        darkModeButton.setAttribute('name', 'Disable dark mode');
     }
 });
 
@@ -93,7 +93,7 @@ storyShowButton.addEventListener('click', () => {
 
     if (storyShowButton.classList.contains('active')) {
         // TODO: 모달이나 토스트로 변경
-        alert('스토리 모드에서는 월드 편집 기능이 제한됩니다.');
+        alert('World editing is restricted in story mode.');
 
         wallEditButton.classList.remove('active');
         wallEditButton.setAttribute('disabled', true);
@@ -331,7 +331,7 @@ const copyToClipboard = (target) => {
     if (target.tagName == 'BUTTON' && target.classList.contains('code-item')) {
         const code = target.innerText;
         navigator.clipboard.writeText(code).then(() => {
-            alert('클립보드에 복사되었습니다.');
+            alert('Copied to the clipboard.');
         });
     }
 };
@@ -400,13 +400,13 @@ window.addEventListener('DOMContentLoaded', () => {
     if (getStatusMode() === 'show') {
         localStorage.setItem('status-mode', 'show');
         statusModeButton.classList.remove('hide');
-        statusModeButton.setAttribute('name', '체력 상태 숨기기');
-        srText.innerText = '체력 상태 숨기기';
+        statusModeButton.setAttribute('name', 'hide HP');
+        srText.innerText = 'hide HP';
     } else {
         localStorage.setItem('status-mode', 'hide');
         statusModeButton.classList.add('hide');
-        statusModeButton.setAttribute('name', '체력 상태 보기');
-        srText.innerText = '체력 상태 보기';
+        statusModeButton.setAttribute('name', 'show HP');
+        srText.innerText = 'show HP';
     }
     setStatusVisiblity();
 });
@@ -415,13 +415,13 @@ statusModeButton.addEventListener('click', () => {
     if (getStatusMode() === 'show') {
         localStorage.setItem('status-mode', 'hide');
         statusModeButton.classList.add('hide');
-        statusModeButton.setAttribute('name', '체력 상태 보기');
-        srText.innerText = '체력 상태 보기';
+        statusModeButton.setAttribute('name', 'show HP');
+        srText.innerText = 'show HP';
     } else {
         localStorage.setItem('status-mode', 'show');
         statusModeButton.classList.remove('hide');
-        statusModeButton.setAttribute('name', '체력 상태 숨기기');
-        srText.innerText = '체력 상태 숨기기';
+        statusModeButton.setAttribute('name', 'hide HP');
+        srText.innerText = 'hide HP';
     }
     setStatusVisiblity();
 });
@@ -556,8 +556,8 @@ window.addEventListener('click', (e) => {
 /* 인증서 초기화 */
 const certifList = certifWrap.querySelector('.certif-list');
 const storyChapter = {
-    입문: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
-    기초: [12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22],
+    Introduction: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+    Basic: [12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22],
 };
 const setCertifItem = () => {
     Object.keys(storyChapter).forEach((chapter) => {
@@ -570,7 +570,7 @@ const setCertifItem = () => {
         <div class="progress-bar">
             <div class="progress-bar-inner"></div>
         </div>
-        <button class="btn-download-certif" disabled><span class="sr-only">인증서 다운로드</span></button>
+        <button class="btn-download-certif" disabled><span class="sr-only">Download certificate</span></button>
         `;
         certifList.append(li);
     });
