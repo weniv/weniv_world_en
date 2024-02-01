@@ -1523,12 +1523,12 @@
 
                 if solution_flag==True:
                     # TODO: 경고창을 안내창으로 변경
-                    js.localStorage.setItem(f"{story_select['index']}_check", "정답")
+                    js.localStorage.setItem(f"{story_select['index']}_check", "answer")
                     liElem = evt.target.closest('li')
                     liElem.classList.add('submit')
-                    show_modal_alert('정답입니다.', 'success')
+                    show_modal_alert('The answer is correct.', 'success')
                 else:
-                    show_modal_alert('오답입니다.')
+                    show_modal_alert('The answer is incorrect. Please review your response.')
         @when("click", selector=".btn-story")
         def change_storymode(evt=None):
             if(evt.target.classList.contains('active')):

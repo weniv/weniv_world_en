@@ -21,56 +21,17 @@ const getCode = (id) => {
     return codeText ? codeText : '```py\n\n```';
 };
 
-const getChart = (chartData) => {
-    return new Promise((resolve) => {
-        const canvas = document.createElement('canvas');
-        canvas.setAttribute('id', 'chart');
-        const ctx = canvas.getContext('2d');
-        ctx.canvas.width = 800;
-
-        const myChart = new Chart(ctx, {
-            type: 'bar',
-            data: {
-                labels: Object.keys(chartData),
-                datasets: [
-                    {
-                        label: '점수',
-                        data: Object.values(chartData),
-                        borderWidth: 1,
-                    },
-                ],
-            },
-            options: {
-                scales: {
-                    y: {
-                        beginAtZero: true,
-                        min: 0,
-                        max: 100,
-                    },
-                },
-                responsive: false,
-            },
-        });
-
-        setTimeout(() => {
-            const imgLink = canvas.toDataURL('image/png');
-            canvas.remove();
-            resolve(imgLink);
-        }, 500);
-        document.body.appendChild(canvas);
-    });
-};
-
 const getTable = (chartData) => {
     return new Promise((resolve) => {
-        let result = '|항목|진행도|점수|\n|:---:|:---|:---:|\n';
+        let result = '|Subject|Progress|Score|\n|:---:|:---|:---:|\n';
         for (const key of Object.keys(chartData)) {
             result += `|${key} |${
                 '◼︎'.repeat(chartData[key] / 10) +
                 '◻︎'.repeat(10 - chartData[key] / 10)
             }|${chartData[key]}|\n`;
         }
-        return resolve(result);
+        // return resolve(result);
+        return resolve('');
     });
 };
 
@@ -92,11 +53,11 @@ const downloadFile = async ({ data, fileName, fileType }) => {
 
 btnDownload.addEventListener('click', (e) => {
     const score = {
-        '변수와 자료형': 0,
-        연산: 0,
-        '반복문과 조건문': 0,
-        함수: 0,
-        클래스: 0,
+        'Variable and Data Types': 0,
+        Operation: 0,
+        'Iterative and Conditional Statement': 0,
+        Function: 0,
+        Class: 0,
     };
 
     let reportData = '';
@@ -106,18 +67,19 @@ btnDownload.addEventListener('click', (e) => {
             id = story['id'];
             if (localStorage.getItem(`${id}_code`)) {
                 const result =
-                    localStorage.getItem(`${id}_check`) === '정답' ? 'Y' : 'N';
+                    localStorage.getItem(`${id}_check`) === 'answer'
+                        ? 'P'
+                        : 'F';
                 // evaluation 항목에 따라 점수를 부여한다.
-                if (result == 'Y') {
+                if (result == 'Y' && story['evaluation']) {
                     for (const key of story['evaluation']) {
                         score[key] += 10;
                     }
                 }
-                const storyData = `## 문제 ${id}번\n\n* 평가 항목 : ${
-                    story['evaluation'] || '-'
-                }\n* 제출 시간 : ${
+                // const storyData = `## 문제 ${id}번\n\n* 평가 항목 : ${
+                const storyData = `## EP ${id}\n\n* Submission Time : ${
                     localStorage.getItem(`${id}_time`) || '-'
-                }\n* 통과 여부 : ${result}\n\n${getCode(id)}\n\n`;
+                }\n* P/F : ${result}\n\n${getCode(id)}\n\n`;
 
                 reportData += storyData;
             }
@@ -125,13 +87,14 @@ btnDownload.addEventListener('click', (e) => {
         'score', score;
         // 표로 가져오기
         getTable(score).then((res) => {
-            reportData = `# 학습 보고서\n\n ${res}\n\n` + reportData;
+            reportData = `# Study Report\n\n ${res}\n\n` + reportData;
 
             // TODO: 학번과 이름을 입력받아 파일명을 만들어준다.
             const userName =
-                JSON.parse(localStorage.getItem('profile'))?.name || '익명';
+                JSON.parse(localStorage.getItem('profile'))?.name ||
+                'anonymous';
             if (!!reportData) {
-                const fileName = `보고서`;
+                const fileName = `Report`;
                 const today = new Date();
                 downloadFile({
                     data: reportData,
@@ -142,7 +105,7 @@ btnDownload.addEventListener('click', (e) => {
                     fileType: 'text/json',
                 });
             } else {
-                window.alert('다운로드 할 데이터가 없습니다.');
+                window.alert('There is no data to download.');
             }
         });
     });

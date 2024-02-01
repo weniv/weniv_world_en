@@ -581,7 +581,7 @@ const updateCertifItem = () => {
         const li = certifItems[index];
         const solved = value.reduce((acc, cur) => {
             const check = localStorage.getItem(`${cur}_check`);
-            if (check === '정답') {
+            if (check === 'answer') {
                 return acc + 1;
             }
             return acc;

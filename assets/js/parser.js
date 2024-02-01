@@ -429,7 +429,7 @@ const renderContent = (markdownData) => {
             button.setAttribute('class', 'btn-toggle');
             button.innerHTML = `<span class="sr-only">open and close story</span>`;
 
-            if (localStorage.getItem(`${index + 1}_check`) === '정답') {
+            if (localStorage.getItem(`${index + 1}_check`) === 'answer') {
                 li.classList.add('submit');
             }
             const submitButton = document.createElement('button');
