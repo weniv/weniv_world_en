@@ -885,7 +885,7 @@ button {
     margin-bottom: 0.8rem; }
   .kebab-menu .kebab-item li > a,
   .kebab-menu .kebab-item li > button {
-    display: block;
+    display: flex;
     padding: 1rem 2rem;
     box-sizing: border-box;
     font-size: 1.4rem;
