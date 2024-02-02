@@ -39,7 +39,7 @@ from pyodide.ffi.wrappers import add_event_listener
 import json
 import math
 
-j.console.log("?? 실행??")
+j.console.log("?? execution??")
 
 # item select
 item_select = {"status": False, "name": ""}
@@ -160,7 +160,7 @@ app.appendChild(draw_map)
 @when("click", selector="#init")
 def init(evt=None):
     global wall_data
-    js.console.log("월드 초기화")
+    js.console.log("World initialization")
     map_data["height"] = 5
     map_data["width"] = 5
     map_slider_x.value = 5
@@ -218,7 +218,7 @@ def init(evt=None):
 
 @when("click", selector="#init_character")
 def init_character(evt=None):
-    js.console.log("캐릭터 초기화")
+    js.console.log("Character initialization")
     global running_speed
     js.document.querySelector(".character").remove()
     character_data[0] = {
@@ -273,35 +273,35 @@ def show_character_info(evt=None):
 
     # 말풍선에 캐릭터 정보 추가
     bubble.innerHTML = f"""
-        <p class="info-title">캐릭터 정보</p>
+        <p class="info-title">Character information</p>
         <dl class="info-list">
             <div class="info-item">
-                <dt class="bubble-body-item-title">이름</dt>
+                <dt class="bubble-body-item-title">Name</dt>
                 <dd class="bubble-body-item-content">{character_data[0]['character']}</dd>
             </div>
             <div class="info-item">
-                <dt class="bubble-body-item-title">x좌표</dt>
+                <dt class="bubble-body-item-title">x-coordinate</dt>
                 <dd class="bubble-body-item-content">{character_data[0]['x']}</dd>
             </div>
             <div class="info-item">
-                <dt class="bubble-body-item-title">y좌표</dt>
+                <dt class="bubble-body-item-title">y-coordinate</dt>
                 <dd class="bubble-body-item-content">{character_data[0]['y']}</dd>
             </div>
             <div class="info-item">
-                <dt class="bubble-body-item-title">방향</dt>
+                <dt class="bubble-body-item-title">Directions</dt>
                 <dd class="bubble-body-item-content">{character_data[0]['directions']}</dd>
             </div>
             <div class="info-item">
-                <dt class="bubble-body-item-title">아이템</dt>
+                <dt class="bubble-body-item-title">Items</dt>
                 <dd class="bubble-body-item-content">{character_data[0]['items']}</dd>
             </div>
              <div class="info-item">
-                <dt class="bubble-body-item-title">체력</dt>
+                <dt class="bubble-body-item-title">HP</dt>
                 <dd class="bubble-body-item-content">{character_data[0]['hp']}</dd>
             </div>
         </dl>
         <button type="button" id="init_character" class="btn-reset">
-            <span class="sr-only">캐릭터 초기화</span>
+            <span class="sr-only">Chracter initialization</span>
         </button>
     """
     # app에 말풍선 추가(이미 말풍선이 존재하는 경우에는 추가하지 않음.)
@@ -320,7 +320,7 @@ def download_worlddata(evt=None):
     """
     메인화면에서 월드데이터 다운로드
     """
-    js.console.log("월드데이터 다운로드")
+    js.console.log("Download world data")
 
     # 월드데이터 다운로드
     character_info = character_data.copy()
@@ -607,7 +607,7 @@ def init_output(evt=None):
     js.document.querySelectorAll('.output-item')에 있는 모든 내용을
     txt 파일로 다운로드 하는 코드
     """
-    js.console.log("다운로드")
+    js.console.log("download")
     output = js.document.querySelectorAll(".output-item")
     output_text = ""
     for line in output:

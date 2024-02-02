@@ -10,7 +10,7 @@ story_solution = {
         "item": { "fish-1": 4 }
     },
     2: {
-        "say_data": ["문을 열어줘!"],
+        "say_data": ["Open the door!"],
         "item_data": {},
         "character_data": {
             "character": "licat",
@@ -20,7 +20,7 @@ story_solution = {
         "item": { "diamond": 1 }
     },
     3: {
-        "print_data": ["라이캣은 물고기 6마리를 잡았다!"],
+        "print_data": ["Licat caught 3 fish!"],
         "item_data": {},
         "character_data": {
             "character": "licat",
@@ -30,19 +30,19 @@ story_solution = {
         "item": { "fish-1": 6 }
     },
     4: {
-        "print_data": ["종류   마리    가격    합", "fish-1 2       1000   2000","fish-2 5       2000   10000","fish-3 10      3000   30000", "합                    42000"],
+        "print_data": ["type    count   price   total", "fish-1  2       1000    2000","fish-2  5       2000    10000","fish-3  10       3000    30000", "total                   42000"],
         "item_data": {},
         "item": {"fish-1":2, "fish-2":5, "fish-3":10}
     },
     5: {
-        "print_data": ["최고 운영 책임자 뮤라, 최고 기술 책임자 하티로 임명합니다. - 대표 라이캣"]
+        "print_data": ["Appointing as COO Mura, CTO Hati - CEO Licat"]
     },
     6: {
-        "print_data":["가장 적은 금액: 45000","이벤트 요일: 수","쉬는 날: 금"],
+        "print_data":["Minimum sales: 45000","Event day: Wednesday","Day off: Friday"],
         "item_data": {},
     },
     7: {
-        "say_data": ["오늘은 밥차를 운영합니다!"],
+        "say_data": ["We are running a food truck!"],
         "item_data": {(1,4):{'item':'fish-1','count':1}},
         "character_data": {
             "character": "licat",
@@ -56,7 +56,7 @@ story_solution = {
         "item_data": {},
     },
     9: {
-        "say_data":['배송 1개 완료', '배송 3개 완료', '배송 1개 완료', '배송 5개 완료', '배송 7개 완료'],
+        "say_data":['Completed delivery: 1', 'Completed delivery: 3', 'Completed delivery: 1', 'Completed delivery: 5', 'Completed delivery: 7'],
         "item_data": {},
         "character_data": {
             "character": "licat",
@@ -65,7 +65,7 @@ story_solution = {
         },
     },
     10: {
-        "print_data" : ["골드바는 3개 있습니다. 물고기는 5마리 있습니다."],
+        "print_data" : ["There are three gold bars. There are five fish."],
         "item_data":{},
         "character_data" : {
             "character": "licat",
@@ -98,7 +98,7 @@ story_solution = {
         "print_data": ["JEJU"],
     },
     14: {
-        "print_data": ["['자바독', '개리', '소울곰']"],"item_data": {},
+        "print_data": ["['Javadog', 'Gary', 'SoulGom']"],"item_data": {},
     },
     15: {
         "say_data": ["9"],
@@ -110,7 +110,7 @@ story_solution = {
         },
     },
     16: {
-        "print_data":["1. 라이캣 : 피스 스톤", "2. 개리 : 스페이스 스톤","3. 자바독 : 마인드 스톤","4. 빙키 : 리얼리티 스톤","5. 뮤라 : 타임 스톤","6. 소울곰 : 소울 스톤","7. 대리인 No.1 : 파워 스톤"],
+        "print_data":["1. Licat : Peace Stone", "2. Gary : Space Stone","3. Javadog : Mind Stone","4. Binky : Reality Stone","5. Mura : Time Stone","6. SoulGom : Soul Stone","7. Delegate No.1 : Power Stone"],
         "code":["enumerate"]
     },
     17: {
@@ -119,7 +119,7 @@ story_solution = {
         "item":{"fish-1":7, "fish-2":3,"fish-3":5}
     },
     18: {
-        "print_data":["[['당근', 6], ['당근', 7]]"],
+        "print_data":["[['carrot', 6], ['carrot', 7]]"],
         "item_data": {},
     },
     19: {
@@ -127,7 +127,7 @@ story_solution = {
     },
     20: {
         "code":["__str__"],
-        "print_data": ["금괴 10개","보석 20개"],
+        "print_data": ["10 gold","20 diamond"],
         "character_data": {
             "character": "licat",
             "x": 1,
@@ -135,7 +135,7 @@ story_solution = {
         },
     },
     21: {
-        "print_data":["모든 부족원이 안전하게 이동되었습니다."]
+        "print_data":["All tribe members were transported safely."]
     },
     22: {
         "character_data": {

@@ -32,7 +32,7 @@ def turn_left_until_clear():
             turn_left()
         else:
             return
-    alert_error("사방이 막혀있습니다.")
+    alert_error("All four sides are blocked.")
     
 
 

@@ -351,7 +351,7 @@ class Mob:
             char_obj.draw_hp()
             if char_obj.hp <= 0:
                 if ch_name == default_character:
-                    life = js.confirm("기본 캐릭터의 체력이 0이 되었습니다. 캐릭터를 부활시키겠습니까?")
+                    life = js.confirm("HP has been reduced to 0. Do you want to revive?")
                     if life:
                         full_hp = character_data[0]["character_obj"].initHp
                         character_data[0]["hp"] = full_hp
