@@ -530,15 +530,15 @@
                 </ul>
                 <ul>
                     <li>
-                        <button id="init" class="button-before btn-reset show-tooltip" type="button" name="Reset world, character">
+                        <button id="init" class="button-before btn-reset show-tooltip" type="button" name="reset world, character">
                             <span class="sr-only">Reset world, character</span>
                         </button>
                     </li>
                 </ul>
                 <ul>
                     <li>
-                        <button class="button-before btn-status show-tooltip hide" type="button" name="View HP">
-                            <span class="sr-only">View HP</span>
+                        <button class="button-before btn-status show-tooltip hide" type="button" name="View HP/MP">
+                            <span class="sr-only">View HP/MP</span>
                         </button>
                     </li>
                 </ul>
@@ -938,39 +938,39 @@
 
             # 말풍선에 캐릭터 정보 추가
             bubble.innerHTML = f'''
-                <p class="info-title">캐릭터 정보</p>
+                <p class="info-title">Character Info</p>
                 <dl class="info-list">
                     <div class="info-item">
-                        <dt class="bubble-body-item-title">이름</dt>
+                        <dt class="bubble-body-item-title">Name</dt>
                         <dd class="bubble-body-item-content">{character_data[0]['character']}</dd>
                     </div>
                     <div class="info-item">
-                        <dt class="bubble-body-item-title">x좌표</dt>
+                        <dt class="bubble-body-item-title">X-coordinate</dt>
                         <dd class="bubble-body-item-content">{character_data[0]['x']}</dd>
                     </div>
                     <div class="info-item">
-                        <dt class="bubble-body-item-title">y좌표</dt>
+                        <dt class="bubble-body-item-title">Y-coordinate</dt>
                         <dd class="bubble-body-item-content">{character_data[0]['y']}</dd>
                     </div>
                     <div class="info-item">
-                        <dt class="bubble-body-item-title">방향</dt>
+                        <dt class="bubble-body-item-title">Direction</dt>
                         <dd class="bubble-body-item-content">{character_data[0]['directions']}</dd>
                     </div>
                     <div class="info-item">
-                        <dt class="bubble-body-item-title">아이템</dt>
+                        <dt class="bubble-body-item-title">Items</dt>
                         <dd class="bubble-body-item-content">{character_data[0]['items']}</dd>
                     </div>
                     <div class="info-item">
-                        <dt class="bubble-body-item-title">체력</dt>
+                        <dt class="bubble-body-item-title">HP</dt>
                         <dd class="bubble-body-item-content">{character_data[0]['hp']} / {character_data[0]['character_obj'].initHp}</dd>
                     </div>
                     <div class="info-item">
-                        <dt class="bubble-body-item-title">마나</dt>
+                        <dt class="bubble-body-item-title">MP</dt>
                         <dd class="bubble-body-item-content">{character_data[0]['mp']} / {character_data[0]['character_obj'].initMp}</dd>
                     </div>
                 </dl>
                 <button type="button" id="init_character" class="btn-reset">
-                    <span class="sr-only">캐릭터 초기화</span>
+                    <span class="sr-only">reset character</span>
                 </button>
             '''
             # app에 말풍선 추가(이미 말풍선이 존재하는 경우에는 추가하지 않음.)
@@ -1529,7 +1529,7 @@
                     liElem.classList.add('submit')
                     show_modal_alert('The answer is correct.', 'success')
                 else:
-                    show_modal_alert('The answer is incorrect. Please review your response.')
+                    show_modal_alert('Incorrect. Please review your answer.')
         @when("click", selector=".btn-story")
         def change_storymode(evt=None):
             if(evt.target.classList.contains('active')):
