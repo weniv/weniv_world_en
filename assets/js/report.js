@@ -77,7 +77,7 @@ btnDownload.addEventListener('click', (e) => {
                     }
                 }
                 // const storyData = `## 문제 ${id}번\n\n* 평가 항목 : ${
-                const storyData = `## EP ${id}\n\n* Submission Time : ${
+                const storyData = `## EP. ${id}\n\n* Submission Time : ${
                     localStorage.getItem(`${id}_time`) || '-'
                 }\n* P/F : ${result}\n\n${getCode(id)}\n\n`;
 

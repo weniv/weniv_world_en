@@ -93,7 +93,7 @@ storyShowButton.addEventListener('click', () => {
 
     if (storyShowButton.classList.contains('active')) {
         // TODO: 모달이나 토스트로 변경
-        alert('World editing is restricted in story mode.');
+        alert('World edit is restricted in story mode.');
 
         wallEditButton.classList.remove('active');
         wallEditButton.setAttribute('disabled', true);
@@ -400,13 +400,13 @@ window.addEventListener('DOMContentLoaded', () => {
     if (getStatusMode() === 'show') {
         localStorage.setItem('status-mode', 'show');
         statusModeButton.classList.remove('hide');
-        statusModeButton.setAttribute('name', 'hide HP');
-        srText.innerText = 'hide HP';
+        statusModeButton.setAttribute('name', 'hide HP/MP');
+        srText.innerText = 'hide HP/MP';
     } else {
         localStorage.setItem('status-mode', 'hide');
         statusModeButton.classList.add('hide');
-        statusModeButton.setAttribute('name', 'show HP');
-        srText.innerText = 'show HP';
+        statusModeButton.setAttribute('name', 'show HP/MP');
+        srText.innerText = 'show HP/MP';
     }
     setStatusVisiblity();
 });
@@ -415,13 +415,13 @@ statusModeButton.addEventListener('click', () => {
     if (getStatusMode() === 'show') {
         localStorage.setItem('status-mode', 'hide');
         statusModeButton.classList.add('hide');
-        statusModeButton.setAttribute('name', 'show HP');
-        srText.innerText = 'show HP';
+        statusModeButton.setAttribute('name', 'show HP/MP');
+        srText.innerText = 'show HP/MP';
     } else {
         localStorage.setItem('status-mode', 'show');
         statusModeButton.classList.remove('hide');
-        statusModeButton.setAttribute('name', 'hide HP');
-        srText.innerText = 'hide HP';
+        statusModeButton.setAttribute('name', 'hide HP/MP');
+        srText.innerText = 'hide HP/MP';
     }
     setStatusVisiblity();
 });
