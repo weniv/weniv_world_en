@@ -1,63 +1,63 @@
-# 광석 채굴!
+# Mining Ore
 
-## 광석 채굴! `클래스`
+## Mining Ore `Class`
 
-소울곰은 고향이 있지 않았어요. 그는 파이와 썬이 만든 NPC였기 때문이죠! 하지만 소울 스톤을 받음으로 그에게도 영혼이 생겼습니다. 더불어 큰 지혜와 영혼 세계를 볼 수 있게 되었죠.
+SoulGom didn't have a hometown as she was an NPC created by Pie and Sun! But she could gain a soul thanks to the Soul Stone. Along with it came great wisdom and the ability to see the world of souls.
 
-소울곰은 자신에게 주어진 새로운 삶과 능력에 대해 고민했습니다.
+SoulGom pondered over her new life and abilities.
 
-> '내가 이 세계에 어떤 도움을?'
+> 'How can I be of help in this world?'
 
-소울곰은 소울 스톤을 통해 알게된 지혜로 곧 막대한 전쟁자금이 필요할 것이라는 것을 예측할 수 있었어요. 
+Through the wisdom gained from the Soul Stone, SoulGom could predict that a significant war fund would soon be needed.
 
-소울곰은 북극으로 향했습니다. 생명체로서는 살아남기 힘든 극한의 냉기 속에서도, 그의 특성 덕분에 자유롭게 움직일 수 있었습니다. 더 깊은 곳으로 향했습니다. 그는 더 깊고, 누구의 손길도 닿지 않은 곳, 태고의 보물이 숨겨진 곳을 향했습니다.
+SoulGom headed to the Arctic. Despite the extreme cold, she could move freely thanks to her nature. She went deeper and deeper into where untouched ancient treasures were hidden.
 
-상상을 초월하는 양의 보석들이 원석 그대로 벽에 붙어 곳곳에서 별빛으로 수놓았습니다. 세상의 모든 보화를 합친 것보다 더 많은 보물이었습니다. 소울곰은 전쟁이 발발하면 화폐 가치가 급락하고, 초인플레이션이 위니브 월드를 덮치며, 그 결과로 보석의 가치가 상승할 것으로 예상했습니다. 보석을 보는 소울곰은 희미하게 웃었습니다.
+Unimaginable amounts of jewels adorned the walls, shimmering like starlight. SoulGom thought that when war broke out, the currency value would plummet, hyperinflation would engulf Weniv World, and as a result, the value of jewels would rise. Looking at the jewels, SoulGom chuckled faintly.
 
-믿음, 보람, 역할, 존재의 이유, 혁신과 혁명. 곡괭이를 휘두르면서도 소울곰은 그동안 머릿속에 단순한 단어로만 저장되어 있던 세상의 지식을 되새기며, 그것들을 지혜와 영혼으로 승화시켰습니다.
+Faith, fulfillment, purpose, the reason for existence, innovation, and revolution. As she wielded her pickaxe, SoulGom transmuted them into wisdom and soul.
 
-### 임무
-맵에서 금괴와 보석을 채굴하여 `class Treasure`의 인스턴스로 만드세요. 각 인스턴스를 print 했을 때 금괴 10개, 보석 20개와 같이 출력되도록 `__str__` 메서드를 정의해야 합니다. `class Treasure`는 `__init__`, `__str__` 및 아이템을 주웠을 때 아이템의 수를 증가시키는 `get_item` 메서드를 포함해야 합니다.
+### Mission
+Mine gold and diamond from the map to create instances of `class Treasure`. Define the `__str__` method so that when each instance is printed like "10 gold, 20 diamond". `class Treasure` should include `__init__`, `__str__`, and `get_item` method to increase the quantity of items when collected.
 
-### 기본 데이터
+### Basic Data
 ```python
 class Treasure:
-    # 클래스 정의
+    # Define class
     pass
 
-# 인스턴스 생성
+# Create instance
 gold = Treasure('gold', 0)
 diamond = Treasure('diamond', 0)
 
-# 인스턴스 리스트
+# Instance list
 treasure_list = [gold, diamond]
 
-# 각 인스턴스 출력
+# Print each instance
 for treasure in treasure_list:
     print(treasure)
 ```
 
-### 결과값
+### Output
 ```python
-금괴 10개
-보석 20개
+10 gold
+20 diamond
 ```
 
-## 사용 코드
-아래 제시된 코드를 활용하여 문제를 해결해 주세요.
+## Hints
+Complete the mission by combining the codes below.
 
 ```python
 class Treasure:
-    # 초기화 메서드
+    # Initialization method
     def __init__(self, name, quantity):
         self.name = name
         self.quantity = quantity
 
-    # 문자열 표현 메서드
+    # String representation method
     def __str__(self):
         pass
 
-    # 아이템 수 증가 메서드
+    # Method to increase item quantity
     def get_item(self):
         pass
 ```

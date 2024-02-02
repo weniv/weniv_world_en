@@ -40,7 +40,7 @@ Licat felt the need for power for the revolution. This power could be the inhere
 
 Those who received the stones embarked on a long journey.
 
-![Distributin 7 gemstones](./story16-2.jpg)
+![Distributing 7 gemstones](./story16-2.jpg)
 
 - Licat : Peace Stone
 - Gary: Space Stone

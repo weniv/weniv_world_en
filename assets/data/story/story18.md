@@ -4,7 +4,7 @@
 
 Binky, who was the trusted companion of Pie and Sun, was guarding the treasure with SoulGom. When Licat was overcoming various challenges, Binky gave him some advice. When Licat got the jewel, Binky realized it was the last mission left by Pie and Sun.
 
-‘A person who will never use an ax again after being stamped with an ax, or a person who can trust and embrace it even if he is stamped with an ax.’
+> ‘A person who will never use an ax again after being stamped with an ax, or a person who can trust and embrace it even if he is stamped with an ax.’
 
 This was something as heavy as the weight of a crown. Binky witnessed the faith, trust, and tolerance that Licat shared with those who overcame many obstacles. If Licat tried to claim the treasure alone, Binky was prepared to retrieve it. While contemplating, Binky received Licat’s call.
 
@@ -14,7 +14,7 @@ Binky, who never expected to receive it, was taken aback. And she found this sit
 
 ![Binky with Reality Stone](./story18-1.jpg)
 
-* Reality Stone: Can manipulate people's vision to create illusions resembling reality.
+- Reality Stone: Can manipulate people's vision to create illusions resembling reality.
 
 Binky moved to her hometown, where she had been away for a long time. She worked hard to enhance her ability to use the Reality Stone and pondered on what kind of power she could gather with it.
 
@@ -24,14 +24,14 @@ Starving rabbits lay by the roadside, and rotten carrots were scattered in the f
 
 ![Binky with Reality Stone](./story18-2.jpg)
 
-"I'll recreate the village where there was clearer water, a garden to rest, and a fresh carrot to eat at any time. The air is clear, and people come out and run around. Then, people will know how precious it is to lose them."
+> "I'll recreate the village where there was clearer water, a garden to rest, and a fresh carrot to eat at any time. The air is clear, and people come out and run around. Then, people will know how precious it is to lose them."
 
 ### Mission
 Exclude carrots with low freshness and items other than carrots from the given list, and select only carrots with a freshness score of 5 or higher. Lastly, output them to the terminal. The list is structured with `['item name', freshness score]` for each item. Use `list comprehension` and the `ternary operator` to complete this mission.
 
 ### Basic Data
 ```python
-items = [['carrot', 3], ['apple', 5], ['carrot', 6], ['Grape', 4], ['carrot', 7]]
+items = [['carrot', 3], ['apple', 5], ['carrot', 6], ['grape', 4], ['carrot', 7]]
 ```
 
 ### Output
