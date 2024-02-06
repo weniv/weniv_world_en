@@ -37,7 +37,7 @@ portal_queue = PortalQueue()
 for member in tribe_members:
     portal_queue.enter_portal(member)
 
-# Transport all tribe members
+# Transport every tribe member
 result = portal_queue.transport_all()
 print(result)
 ```
