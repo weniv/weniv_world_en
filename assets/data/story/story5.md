@@ -4,7 +4,7 @@
 
 The small fish market has changed its name to `CatsFish` and has become a corporation. Due to such rapid growth, Lion Town's nobles started to get jealous.
 
-![Huge growth of 'CatsFish'](./5.jpg)
+![Huge growth of 'CatsFish'](./5.webp)
 
 Several nobles sent spies to break down Licat. He already knew the spy because Mura had informed him who the spy was.
 

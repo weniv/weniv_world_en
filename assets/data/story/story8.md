@@ -6,7 +6,7 @@ Pika is a strategist. With much experience in launching services, Pika is taking
 
 The warehouse of `CatsFish` is full, and there is no place to store fish anymore. Therefore, Pika wants to build a large warehouse to store fish. The problem is how many floors the warehouse should have.
 
-![Pika, a king of designer](./8.jpg)
+![Pika, a king of designer](./8.webp)
 
 > "Oh, this should be fun."
 

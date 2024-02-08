@@ -12,6 +12,8 @@ Through the wisdom gained from the Soul Stone, SoulGom could predict that a sign
 
 SoulGom headed to the Arctic. Despite the extreme cold, she could move freely thanks to her nature. She went deeper and deeper into where untouched ancient treasures were hidden.
 
+![SoulGom and treasures](./20.webp)
+
 Unimaginable amounts of jewels adorned the walls, shimmering like starlight. SoulGom thought that when war broke out, the currency value would plummet, hyperinflation would engulf Weniv World, and as a result, the value of jewels would rise. Looking at the jewels, SoulGom chuckled faintly.
 
 Faith, fulfillment, purpose, the reason for existence, innovation, and revolution. As she wielded her pickaxe, SoulGom transmuted them into wisdom and soul.

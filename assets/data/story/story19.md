@@ -14,7 +14,7 @@ After these efforts, many people came to know Javadog’s sincerity and gained t
 
 Javadog showed his sincerity through the Mind Stone, presenting them with a new vision. Then skilled engineers began to take action.
 
-![Javadog giving a speech](./story19-1.jpg)
+![Javadog persuading engineers](./19.webp)
 
 > "Not for our future, but for the future of our children!" 
 

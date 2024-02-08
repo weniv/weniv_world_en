@@ -4,7 +4,7 @@
 
 As the company grew, Licat was worn out from the busy management and heavy responsibilities.
 
-![](./10.jpg)
+![](./10.webp)
 
 > “Every day is so exhausting. Do I have to do this much? Why do I work and what more can I do in the future?”
 

@@ -2,6 +2,8 @@
 
 ## Gather Your Colleagues! `Type Casting` `Lambda Function` `Built-in Function`
 
+![Licat's precious colleagues](./14.webp)
+
 During his journey, Licat met many colleagues: Javadog, who loves Java and is curious about Python, Gary whom he met on a ship and solved algorithms together, and SoulGom, the last gatekeeper and a henchman of Pie and Sun.
 
 As the number of colleagues grew, Licat wanted to see their information easily. There were too many people to rely just on his memory. Currently, this information is stored in a list in tuple format.

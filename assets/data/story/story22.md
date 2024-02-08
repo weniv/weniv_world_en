@@ -16,6 +16,8 @@ It felt ominous, but it was already too late. Zombies were appearing everywhere,
 
 At that moment, a monster floating in the air wearing red clothes and holding something like a magic wand spoke up.
 
+![Appearance of a monster](./22.webp)
+
 > "You've seen and heard what you shouldn't. Who are you? How did you come here?"
 
 Mura didn't reply but spoke to Hati and ZeeZee.

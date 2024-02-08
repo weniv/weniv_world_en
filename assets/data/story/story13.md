@@ -4,6 +4,8 @@
 
 The seven algorithm gemstones capable of deciphering all the principles and mysteries in the world endow extraordinary wisdom and mystical power. Pie and Sun, the king of algorithms, have been managing these for a long time. How they acquired these gems remains unknown.
 
+![Pie and Sun's hidden gemstone](./13.webp)
+
 The power of the gems was so potent that even the Lion of Weniv World couldn't covet it. However, Pie and Sun were extremely cautious about breaking the world's rules with power. Therefore, they did not reveal themselves to the world.
 
 But the lifespan of all creatures cannot be eternal. Before Pie and Sun died, they announced that they had set a 'cipher' on this treasure and hidden it somewhere in the world. The characters they left are as follows:

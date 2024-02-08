@@ -2,7 +2,7 @@
 
 ## Advent of Licat  `move` `pick` `say`
 
-![Licat caring for his mother](./2.jpg)
+![Licat caring for his mother](./2.webp)
 
 Cat's mother eventually couldn't overcome her worsening condition. Holding back tears, Cat did his best to show a smile on her final journey. Nevertheless, he was in full despair for being helpless to do anything.
 

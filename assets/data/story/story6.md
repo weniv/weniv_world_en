@@ -8,7 +8,7 @@ To make them happy, Licat made efforts to secure more spare time and not to let 
 
 Therefore, they needed a productivity improvement. How could productivity be increased? How could more be produced in less time and more rest be secured?
 
-![](./6.jpg)
+![](./6.webp)
 
 > "It's a system! We need to grow together by changing the system!"
 

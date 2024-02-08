@@ -4,7 +4,7 @@
 
 The fish caught on Skull Island is so plump and delicious that its popularity has been increasing as days go by. Even people from other villages were willing to pay more to buy the fish.
 
-![Licat selling fish](./4.jpg)
+![Licat selling fish](./4.webp)
 
 Today, let's calculate how much revenue we can make when all the displayed fish are sold.
 

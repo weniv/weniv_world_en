@@ -6,6 +6,8 @@ The Space Stone, a stone that controls space! Gary received the Space Stone from
 
 The Frog Tribe, which has been the main labor force supplier in Weniv World, has suffered for a long time under forced labor. Their lives were deeply entrenched in slave-like habits, which was the biggest obstacle Gary faced. He pondered over how to persuade those who were reluctant to change.
 
+![Gary rescuing the Frog Tribe](./21.webp)
+
 > "I'll wield an ax to every tied up chain, ribbit!"
 
 Gary decided to move the tribe members to a safe place to talk. He knew this process wouldn't be easy. Some would resist forced change, and there might even be those who would oppose Gary.

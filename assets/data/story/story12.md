@@ -12,6 +12,8 @@ One day, Licat heard a strange rumor among people.
 
 Upon hearing this, Licat pondered.
 
+![Licat to become a king](./12.webp)
+
 > "I must become a king, meow!"
 
 Licat knew that it would be a long and arduous journey. He feared that everything he had built up could crumble, and he might return with nothing accomplished. Nevertheless, he believed it was the path he must take.

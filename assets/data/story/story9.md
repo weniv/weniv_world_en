@@ -18,7 +18,7 @@ However, employees who were already filled with discontent were skeptical about 
 
 > "I already made it! So let's take this robot and install it, meow!"
 
-![](./9.jpg)
+![](./9_1.webp)
 
 ## Mission
 
@@ -28,7 +28,7 @@ The function should perform the following: pick up the fish, go up to the top, a
 
 Please refer to the image below.
 
-![Mission image](./story9-3.png)
+![Mission image](./9_2.png)
 
 ### Basic Code
 ```python

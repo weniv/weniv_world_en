@@ -4,6 +4,8 @@
 
 Returning to its hometown, Licat looked around the neighborhood that had undergone many changes with the help of `CatsFish Inc.` Even in the enriched village, light and shadow coexisted. He had to organize and determine what to improve and how.
 
+![Licat leaving after handing out fish](./17.webp)
+
 Licat built a cabin overlooking the sea. He crafted a boat himself and brought the nets and fishing rod he had at home. Every morning, he caught fish and quietly shared them with those lying in the shaded areas.
 
 With each fish he caught, Licat pondered how small he was, and yet how capable this small self could be. He discerned what he could and couldn't do, checked if his initial determination was still intact, and thought about how to face the challenges ahead.

@@ -5,7 +5,7 @@
 
 Weniv World is a world of ruthless survival. Powerful ones dominate, and the weak are stripped and starved of hunger. It is also a place where magic and machinery coexist.
 
-![Weniv World controlled by Lion](./1.jpg)
+![Weniv World controlled by Lion](./1.webp)
 
 
 Cat is a commoner who runs a fish market on the outskirts of Weniv World. In the early morning, he ventures into the treacherous sea to catch fish on behalf of his ailing mother, and he sells the fish in the afternoon. He repeats this routine daily.

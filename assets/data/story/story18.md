@@ -12,7 +12,7 @@ This was something as heavy as the weight of a crown. Binky witnessed the faith,
 
 Binky, who never expected to receive it, was taken aback. And she found this situation amusing which is guided by destiny. Pie and Sun had entrusted Binky to guard the treasure until the right person emerged. And now Binky received the treasure from the right one. Now is the time for Binky to prove herself.
 
-![Binky with Reality Stone](./story18-1.jpg)
+![Binky with Reality Stone](./18_1.webp)
 
 - Reality Stone: Can manipulate people's vision to create illusions resembling reality.
 
@@ -22,7 +22,7 @@ Upon arriving, Binky found a village that had changed a lot. The old hills were 
 
 Starving rabbits lay by the roadside, and rotten carrots were scattered in the fields. Well-dressed lions and hyenas were entering the tall buildings, while rabbits were working at the construction site.
 
-![Binky with Reality Stone](./story18-2.jpg)
+![](./18_2.webp)
 
 > "I'll recreate the village where there was clearer water, a garden to rest, and a fresh carrot to eat at any time. The air is clear, and people come out and run around. Then, people will know how precious it is to lose them."
 

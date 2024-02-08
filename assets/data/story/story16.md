@@ -4,7 +4,7 @@
 
 Team Licat successfully solved the final problem and secured seven gemstones from the mystical island of Jeju. Each gemstone emitted a brilliant light, and it seemed to illuminate Licat's path.
 
-![Licat with 7 gemstones](./story16-1.jpg)
+![Licat with 7 gemstones](./16_1.webp)
 
 Despite not having materialistic desires, Licat suppressed the surging possessiveness and thought:
 
@@ -40,7 +40,7 @@ Licat felt the need for power for the revolution. This power could be the inhere
 
 Those who received the stones embarked on a long journey.
 
-![Distributing 7 gemstones](./story16-2.jpg)
+![Distributing 7 gemstones](./16_2.webp)
 
 - Licat : Peace Stone
 - Gary: Space Stone

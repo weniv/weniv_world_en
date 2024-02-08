@@ -8,7 +8,7 @@ Licat has been secretly moving gold bars outside of Lion Town.
 
 He selected reliable employees and raised money with gold bars. And with the money, he’s been running a food truck for a long time.
 
-![Licat running a food truck](./7.jpg)
+![Licat running a food truck](./7.webp)
 
 > "I'll take care of the food, meow! So don't worry about what to eat, what to wear, and where to sleep. Spend time for bigger value, meow!"
 

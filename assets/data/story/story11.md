@@ -2,7 +2,7 @@
 
 ## Hospital Establishment! `Iteration Statement` `Conditional Statement` `Infinite Loop`
 
-![](./11.jpg)
+![](./11.webp)
 
 "Now it's time to build a hospital, meow!"
 
