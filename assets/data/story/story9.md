@@ -28,7 +28,7 @@ The function should perform the following: pick up the fish, go up to the top, a
 
 Please refer to the image below.
 
-![Mission image](./9_2.png)
+![Mission image](./9_2.webp)
 
 ### Basic Code
 ```python
